@@ -24,4 +24,5 @@ jobs:
           java-version: '21'
 
       - name: Build with Maven
+        working-directory: calculator-app
         run: mvn clean test
